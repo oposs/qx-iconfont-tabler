@@ -1,0 +1,40 @@
+{
+  "$schema": "https://qooxdoo.org/schema/Manifest-2-0-0.json",
+  "info": {
+    "name": "qx-iconfont-tabler",
+    "summary": "Tabler Icons for Qooxdoo",
+    "description": "A set of over 1950 free MIT-licensed high-quality icons.",
+    "homepage": "https://github.com/oposs/qx-iconfont-tabler",
+    "license": "MIT license",
+    "authors": [],
+    "version": "0.1.0",
+    "license": "MIT license",
+    "authors" : [
+      {
+        "name": "Tobias Oetiker (oetiker)",
+        "email": "tobi@itis.ethz.ch"
+      }
+    ]
+  },
+  "provides": {
+    "namespace": "iconfont.tabler",
+    "encoding": "utf-8",
+    "class": "source/class",
+    "resource": "source/resource",
+    "translation": "source/translation",
+    "webfonts": [
+      {
+        "name": "TablerIcons",
+        "defaultSize": 32,
+        "comparisonString": "f104ecee",
+        "resources": [
+          "iconfont/tabler/tabler-icons.woff2",
+          "iconfont/tabler/tabler-icons.woff"
+        ]
+      }
+    ]
+  },
+  "requires": {
+    "@qooxdoo/framework": ">6.0.0"
+  }
+}

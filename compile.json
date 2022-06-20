@@ -1,0 +1,30 @@
+{
+    "$schema": "https://qooxdoo.org/schema/compile-1-0-0.json",
+    "targets": [
+      {
+        "type": "source",
+        "outputPath": "compiled/browser/source"
+      },
+      {
+        "type": "build",
+        "outputPath": "compiled/browser/build"
+      }
+    ],
+    "babel": {
+      "Options": {
+        "targets": {
+          "edge": "99",
+          "chrome": "99",
+          "firefox": "99"
+        }
+      }
+    },
+    "applications": [
+    {
+      "class": "iconbrowser.Application",
+      "theme": "qx.theme.Simple",
+      "name": "Tabler Icon Browser"
+    }
+  ]
+}
+    
