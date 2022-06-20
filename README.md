@@ -1,4 +1,4 @@
-# Qooxdoo Integration of the Tabler icon font
+# Tabler icon font support for qx applications
 
 ## Using the iconfont in your Application
 
