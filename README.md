@@ -1,11 +1,11 @@
-# Qooxdoo Integration of the Tabler Icons font
+# Qooxdoo Integration of the Tabler icon font
 
 ## Using the iconfont in your Application
 
 ```console
 $ qx package update
 $ qx package list
-$ qx package install ITISFoundation/qx-iconfont-tabler
+$ qx package install oposs/qx-iconfont-tabler
 ```
 
 To induce the compiler to copy the font file you can either add a 'dummy' call to:
